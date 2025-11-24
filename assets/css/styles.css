@@ -1,3 +1,24 @@
+:root {
+  /* Brand Colors */
+  --color-primary: #C60021;   /* Louboutin Red */
+  --color-accent: #D4AF37;    /* Gold Accent */
+  
+  /* Neutral Palette */
+  --color-bg: #FFFFFF;        /* Main Background */
+  --color-dark: #0A0A0A;      /* Black / Dark Text */
+  --color-light: #E5E5E5;     /* Light Gray */
+
+  /* Text Colors */
+  --text-primary: var(--color-dark);
+  --text-secondary: #555555;
+
+  /* UI Elements */
+  --border-color: var(--color-light);
+  --button-bg: var(--color-primary);
+  --button-text: #FFFFFF;
+}
+
+
 * {
     margin: 0;
     padding: 0;
