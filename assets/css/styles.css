@@ -29,3 +29,19 @@ html {
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+body {
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+}
+
+nav ul {
+    display: inline-flex;
+    gap: 20px;
+    list-style-type: none;
+}
