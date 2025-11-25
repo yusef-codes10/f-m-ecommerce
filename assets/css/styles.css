@@ -107,3 +107,15 @@ nav .list li, .icons i {
 nav .list li:hover, .icons i:hover {
     color: var(--color-accent);
 }
+
+.user-actions select {
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.user-actions select:hover {
+    background-color: var(--text-secondary);
+    color: var(--color-bg);
+}
