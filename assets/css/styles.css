@@ -85,3 +85,24 @@ nav ul {
 .logo-section h2:hover {
     color: var(--color-accent);
 }
+
+.user-actions {
+    display: inline-flex;
+    gap: 8px;
+}
+
+.icons {
+    display: flex;
+    gap: 24px;
+    margin: 0 24px;
+}
+
+.icons i {
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 2s;
+}
+
+.icons i:hover {
+    color: var(--color-accent);
+}
