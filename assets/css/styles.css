@@ -63,11 +63,21 @@ nav {
     padding: 24px 12px;
 }
 
-nav ul {
+nav .list {
     display: inline-flex;
     gap: 20px;
     list-style-type: none;
     margin-right: auto;  /* push all the way to the right  */
+}
+
+nav .list li {
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 2s;
+}
+
+nav .list li:hover{
+    color: var(--color-accent);
 }
 
 .logo-section {
