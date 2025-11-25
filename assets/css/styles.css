@@ -70,15 +70,6 @@ nav .list {
     margin-right: auto;  /* push all the way to the right  */
 }
 
-nav .list li {
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: 2s;
-}
-
-nav .list li:hover{
-    color: var(--color-accent);
-}
 
 .logo-section {
     display: inline-flex;
@@ -107,12 +98,12 @@ nav .list li:hover{
     margin: 0 24px;
 }
 
-.icons i {
+nav .list li, .icons i {
     cursor: pointer;
     font-size: 1.2rem;
     transition: 2s;
 }
 
-.icons i:hover {
+nav .list li:hover, .icons i:hover {
     color: var(--color-accent);
 }
