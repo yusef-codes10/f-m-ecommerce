@@ -18,6 +18,28 @@
   --button-text: #FFFFFF;
 }
 
+.dark-mode {
+  /* Brand Colors */
+  --color-primary: #C60021;   /* Same Louboutin Red */
+  --color-accent: #D4AF37;    /* Gold Accent stays */
+
+  /* Neutral Palette (dark mode versions) */
+  --color-bg: #0A0A0A;        /* Main background dark */
+  --color-dark: #FFFFFF;      /* For text in dark mode */
+  --color-light: #222222;     /* Light gray → dark gray */
+
+  /* Text Colors */
+  --text-primary: var(--color-dark);
+  --text-secondary: #B3B3B3;
+
+  /* UI Elements */
+  --border-color: #333333;
+  --button-bg: var(--color-primary);
+  --button-text: #FFFFFF;
+}
+
+
+
 
 * {
     margin: 0;
@@ -32,6 +54,7 @@ html {
 
 body {
     height: 100vh;
+    background-color: var(--color-bg);
 }
 
 nav {
