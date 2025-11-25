@@ -70,3 +70,18 @@ nav ul {
     margin-right: auto;  /* push all the way to the right  */
 }
 
+.logo-section {
+    display: inline-flex;
+    gap: 8px;
+    margin: 0 24px;
+}
+
+.logo-section h2 {
+    color: var(--color-primary);
+    cursor: pointer;
+    transition: 2s;
+}
+
+.logo-section h2:hover {
+    color: var(--color-accent);
+}
