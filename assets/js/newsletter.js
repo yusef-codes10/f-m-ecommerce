@@ -3,8 +3,8 @@
 const newsLetterBtn = document.getElementById('newsLetterBtn');
 console.log(newsLetterBtn);
 
-newsLetterBtn.addEventListener('click' , function() {
-    console.log(this);
-    this.classList.toggle('fa-solid');
-    this.classList.toggle('fa-angle-down');
+newsLetterBtn.addEventListener('click' , (e) => {
+    e.target.classList.toggle('a-solid');
+    e.target.classList.toggle('fa-angle-down');
+    console.log(e.target);
 })
