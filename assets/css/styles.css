@@ -49,6 +49,9 @@ html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body {
+    position: relative;
+}
 .hero-section {
     height: 100vh;
     background-color: var(--color-bg);
@@ -138,3 +141,9 @@ main {
 }
 
 /* TODO add models sections than some grid of somethig */
+
+.newsletter-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
