@@ -12,7 +12,11 @@ newsLetterBtn.addEventListener('click' , (e) => {
         console.log('includes');
 
     } else {
-        console.log('no');
+        e.target.classList.remove('fa-solid')
+        e.target.classList.remove('fa-angle-down')
+        e.target.classList.add('fa-regular');
+        e.target.classList.add('fa-comment-dots');
+        
     }
         console.log(e.target);
 
