@@ -195,13 +195,20 @@ main {
 }
 
 .newsletter-body {
-    background-color: sienna;
+    background-color: var(--color-bg);
     flex: 1;
     padding: 12px 16px;
 }
 
 .newsletter-input {
     padding: 12px 16px;
+}
+
+.newsletter-input input {
+    padding: 12px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
 }
 
 .hidden {
