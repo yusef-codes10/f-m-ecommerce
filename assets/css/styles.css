@@ -134,7 +134,7 @@ main {
     font-size: 3.2rem;
     font-weight: 900;
     color: var(--color-primary);
-    background-color: sienna;
+    background-color: var(--color-dark);
 }
 
 /* TODO add models sections than some grid of somethig */
