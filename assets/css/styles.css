@@ -150,3 +150,12 @@ main {
     cursor: pointer;
     color: var(--color-primary);
 }
+
+.newletter-container {
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    background-color: seagreen;
+    border: solid 2px black;
+    padding: 12px 16px;
+}
