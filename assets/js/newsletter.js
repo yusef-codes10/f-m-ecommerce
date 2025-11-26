@@ -5,9 +5,10 @@ console.log(newsLetterBtn);
 
 newsLetterBtn.addEventListener('click' , (e) => {
     if (e.target.classList.contains('fa-regular') && e.target.classList.contains('fa-comment-dots')) {
-        // e.target.classList.remove('bi bi-chat-dots');
-        // e.target.classList.add('fa-solid')
-        // e.target.classList.add('fa-angle-down')
+        e.target.classList.remove('fa-regular');
+        e.target.classList.remove('fa-comment-dots');
+        e.target.classList.add('fa-solid')
+        e.target.classList.add('fa-angle-down')
         console.log('includes');
 
     } else {
