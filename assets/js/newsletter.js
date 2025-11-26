@@ -3,8 +3,16 @@
 const newsLetterBtn = document.getElementById('newsLetterBtn');
 console.log(newsLetterBtn);
 
-newsLetterBtn.addEventListener('click', function() {
-    const icon = this.querySelector('i');
-    icon.classList.toggle('fa-angle-down');
-    icon.classList.toggle('fa-angle-up');
-});
+newsLetterBtn.addEventListener('click' , (e) => {
+    if (e.target.classList.contains('fa-regular') && e.target.classList.contains('fa-comment-dots')) {
+        // e.target.classList.remove('bi bi-chat-dots');
+        // e.target.classList.add('fa-solid')
+        // e.target.classList.add('fa-angle-down')
+        console.log('includes');
+
+    } else {
+        console.log('no');
+    }
+        console.log(e.target);
+
+})
