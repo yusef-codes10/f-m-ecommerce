@@ -17,3 +17,8 @@ newsLetterBtn.addEventListener('click', e => {
 function showNewletter() {
     newsLetterContainer.classList.toggle('hidden');
 }
+
+
+// exit exitNewsLetter
+const exitNewsLetter = document.getElementById('exitNewsLetter');
+exitNewsLetter.addEventListener('click', () => console.log('out'))
