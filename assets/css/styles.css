@@ -240,11 +240,12 @@ main {
 /* TODO addd functionality for the newletter */
 
 /* ! models section */
-.model-container {
+.model-container, .products-container {
     background-color: var(--color-bg);
     border: 2px solid red;
     border-radius: 1rem;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     padding: 1rem 2rem;
+    font-size: inherit;
 }
