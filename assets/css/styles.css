@@ -1,41 +1,51 @@
 :root {
-  /* Brand Colors */
-  --color-primary: #C60021;   /* Louboutin Red */
-  --color-accent: #D4AF37;    /* Gold Accent */
-  
-  /* Neutral Palette */
-  --color-bg: #FFFFFF;        /* Main Background */
-  --color-dark: #0A0A0A;      /* Black / Dark Text */
-  --color-light: #E5E5E5;     /* Light Gray */
+    /* Brand Colors */
+    --color-primary: #C60021;
+    /* Louboutin Red */
+    --color-accent: #D4AF37;
+    /* Gold Accent */
 
-  /* Text Colors */
-  --text-primary: var(--color-dark);
-  --text-secondary: #555555;
+    /* Neutral Palette */
+    --color-bg: #FFFFFF;
+    /* Main Background */
+    --color-dark: #0A0A0A;
+    /* Black / Dark Text */
+    --color-light: #E5E5E5;
+    /* Light Gray */
 
-  /* UI Elements */
-  --border-color: var(--color-light);
-  --button-bg: var(--color-primary);
-  --button-text: #FFFFFF;
+    /* Text Colors */
+    --text-primary: var(--color-dark);
+    --text-secondary: #555555;
+
+    /* UI Elements */
+    --border-color: var(--color-light);
+    --button-bg: var(--color-primary);
+    --button-text: #FFFFFF;
 }
 
 .dark-mode {
-  /* Brand Colors */
-  --color-primary: #C60021;   /* Same Louboutin Red */
-  --color-accent: #D4AF37;    /* Gold Accent stays */
+    /* Brand Colors */
+    --color-primary: #C60021;
+    /* Same Louboutin Red */
+    --color-accent: #D4AF37;
+    /* Gold Accent stays */
 
-  /* Neutral Palette (dark mode versions) */
-  --color-bg: #0A0A0A;        /* Main background dark */
-  --color-dark: #FFFFFF;      /* For text in dark mode */
-  --color-light: #222222;     /* Light gray → dark gray */
+    /* Neutral Palette (dark mode versions) */
+    --color-bg: #0A0A0A;
+    /* Main background dark */
+    --color-dark: #FFFFFF;
+    /* For text in dark mode */
+    --color-light: #222222;
+    /* Light gray → dark gray */
 
-  /* Text Colors */
-  --text-primary: var(--color-dark);
-  --text-secondary: #B3B3B3;
+    /* Text Colors */
+    --text-primary: var(--color-dark);
+    --text-secondary: #B3B3B3;
 
-  /* UI Elements */
-  --border-color: #333333;
-  --button-bg: var(--color-primary);
-  --button-text: #FFFFFF;
+    /* UI Elements */
+    --border-color: #333333;
+    --button-bg: var(--color-primary);
+    --button-text: #FFFFFF;
 }
 
 * {
@@ -66,7 +76,8 @@ nav .list {
     display: inline-flex;
     gap: 20px;
     list-style-type: none;
-    margin-right: auto;  /* push all the way to the right  */
+    margin-right: auto;
+    /* push all the way to the right  */
 }
 
 
@@ -76,7 +87,8 @@ nav .list {
     margin: 0 24px;
 }
 
-.logo-section h2, h2 {
+.logo-section h2,
+h2 {
     color: var(--color-primary);
     cursor: pointer;
     transition: 2s;
@@ -86,7 +98,7 @@ nav .list {
     color: var(--color-accent);
 }
 
-.logo-section i{
+.logo-section i {
     margin-top: 6px;
 }
 
@@ -101,13 +113,17 @@ nav .list {
     margin: 0 24px;
 }
 
-nav .list li, .logo-section i, .icons i {
+nav .list li,
+.logo-section i,
+.icons i {
     cursor: pointer;
     font-size: 1.2rem;
     transition: 2s;
 }
 
-nav .list li:hover, .logo-section i:hover, .icons i:hover {
+nav .list li:hover,
+.logo-section i:hover,
+.icons i:hover {
     color: var(--color-accent);
 }
 
@@ -176,7 +192,7 @@ main {
     /* border-radius: 2rem 0rem 2rem 0rem; */
 }
 
-.newsletter-header button{
+.newsletter-header button {
     background: none;
     outline: none;
     border: none;
@@ -232,6 +248,7 @@ main {
 .send-icon:hover {
     background-color: var(--text-secondary);
 }
+
 .hidden {
     display: none;
 }
@@ -240,7 +257,8 @@ main {
 /* TODO addd functionality for the newletter */
 
 /* ! models section */
-.model-container, .products-container {
+.model-container,
+.products-container {
     background-color: var(--color-bg);
     border: 2px solid red;
     border-radius: 1rem;
@@ -252,4 +270,16 @@ main {
 
 .model-container img {
     width: 50%;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /* gap: 10px; */
+    /* spacing between images */
+}
+
+.products-container img {
+    width: 100px;
+    height: 100px;
 }
