@@ -215,9 +215,20 @@ main {
 
 .send-icon {
     position: absolute;
-    right: 25px;
-    bottom: 25px;
+    right: 15px;
+    bottom: 15px;
     cursor: pointer;
+    transition: 2s;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+}
+
+.send-icon:hover {
+    background-color: var(--text-secondary);
 }
 .hidden {
     display: none;
