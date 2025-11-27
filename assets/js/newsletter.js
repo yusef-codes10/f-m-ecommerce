@@ -21,4 +21,4 @@ function showNewletter() {
 
 // exit exitNewsLetter
 const exitNewsLetter = document.getElementById('exitNewsLetter');
-exitNewsLetter.addEventListener('click', showNewletter);
+exitNewsLetter.addEventListener('click', () => console.log('out'))
