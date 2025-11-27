@@ -257,8 +257,7 @@ main {
 /* TODO addd functionality for the newletter */
 
 /* ! models section */
-.model-container,
-.products-container {
+.model-container {
     background-color: var(--color-bg);
     border: 2px solid red;
     border-radius: 1rem;
@@ -273,13 +272,14 @@ main {
 }
 
 .products-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    /* gap: 10px; */
-    /* spacing between images */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
 }
 
 .products-container img {
-    width: 100px;
-    height: 100px;
+  width: 100%;
+  aspect-ratio: 1 / 1;   /* ensures square */
+  object-fit: cover;
+  display: block;         /* removes inline spacing issues */
 }
