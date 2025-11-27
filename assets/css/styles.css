@@ -257,7 +257,8 @@ main {
 /* TODO addd functionality for the newletter */
 
 /* ! models section */
-.model-container {
+.model-container,
+.products-container {
     background-color: var(--color-bg);
     border: 2px solid red;
     border-radius: 1rem;
@@ -284,4 +285,6 @@ main {
     object-fit: cover;
     display: block;
     /* removes inline spacing issues */
+
+    border-radius: 2rem;
 }
