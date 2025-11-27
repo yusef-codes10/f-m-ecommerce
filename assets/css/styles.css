@@ -249,3 +249,7 @@ main {
     padding: 1rem 2rem;
     font-size: inherit;
 }
+
+.model-container img {
+    width: 50%;
+}
