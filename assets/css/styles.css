@@ -238,3 +238,13 @@ main {
 
 /* TODO fix the container border */
 /* TODO addd functionality for the newletter */
+
+/* ! models section */
+.model-container {
+    background-color: var(--color-bg);
+    border: 2px solid red;
+    border-radius: 1rem;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
