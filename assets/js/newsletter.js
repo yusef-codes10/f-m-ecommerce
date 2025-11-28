@@ -2,7 +2,7 @@
 // const <i class="fa-solid fa-angle-down"></i>
 const newsLetterBtn = document.getElementById('newsLetterBtn');
 const newsLetterContainer = document.getElementById('newsLetterContainer')
-console.log(newsLetterBtn);
+// console.log(newsLetterBtn);
 
 newsLetterBtn.addEventListener('click', e => {
     // chat icon
