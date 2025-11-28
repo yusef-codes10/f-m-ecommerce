@@ -11,6 +11,10 @@ nav {
     display: flex;
     justify-content: flex-end;
     padding: 24px 12px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--color-bg);
 }
 
 nav .list {
