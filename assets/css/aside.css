@@ -4,7 +4,8 @@
 .search-side-bar {
     background-color: slateblue;
     position: fixed;
-    top: 76px;
+    /* top: 76px; */
+    top: 0;
     right: 0;
     width: 600px;
     height: 100%;
