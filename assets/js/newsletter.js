@@ -1,6 +1,7 @@
 // news letter btn functionality
 // const <i class="fa-solid fa-angle-down"></i>
 console.log('newsletter loaded');
+console.log(searchIcon);
 const newsLetterBtn = document.getElementById('newsLetterBtn');
 const newsLetterContainer = document.getElementById('newsLetterContainer')
 // console.log(newsLetterBtn);

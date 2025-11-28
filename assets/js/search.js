@@ -1,5 +1,6 @@
 // searchIcon
 console.log('searched loaded');
+console.log(newsLetterContainer);
 const searchIcon = document.getElementById("searchIcon");
 const searchSideBar = document.getElementById("searchSideBar");
 
