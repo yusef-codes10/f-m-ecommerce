@@ -6,6 +6,21 @@
     position: fixed;
     top: 76px;
     right: 0;
-    width: 300px;
+    width: 600px;
     height: 100%;
+    background-color: var(--color-bg);
+}
+
+.search-input {
+    /* width: 100%; */
+    background-color: seagreen;
+}
+
+.search-input input {
+    width: 100%;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
 }
