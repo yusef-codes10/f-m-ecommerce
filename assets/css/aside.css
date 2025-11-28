@@ -1,2 +1,11 @@
 /* aside styling here */
 @import url(/assets/css/vars.css);
+
+.search-side-bar {
+    background-color: slateblue;
+    position: fixed;
+    top: 76px;
+    right: 0;
+    width: 300px;
+    height: 100%;
+}

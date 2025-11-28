@@ -207,10 +207,6 @@ main {
     background-color: var(--text-secondary);
 }
 
-.hidden {
-    display: none;
-}
-
 /* TODO fix the container border */
 /* TODO addd functionality for the newletter */
 
