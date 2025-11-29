@@ -254,10 +254,12 @@ main {
 
     border-radius: 2rem;
     cursor: pointer;
-    transition: 2s;
+    /* transition: 2s; */
+    transition: transform .35s ease;
 }
 
 .products-container img:hover{
-    width: 50%;
-    position: absolute;
+    /* width: 50%;
+    position: absolute; */
+    transform: scale(1.08)
 }
