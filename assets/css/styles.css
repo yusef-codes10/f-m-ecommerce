@@ -258,6 +258,6 @@ main {
 }
 
 .products-container img:hover{
-    width: 100% ;
+    width: 50%;
     position: absolute;
 }
