@@ -12,6 +12,7 @@
     background-color: var(--color-bg);
     padding: 1rem 3rem;
     box-sizing: border-box;
+    z-index: 9999;
 }
 
 .search-input {

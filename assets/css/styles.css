@@ -241,7 +241,7 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    position: relative;
+    /* position: relative; */
 }
 
 .products-container img {
@@ -256,10 +256,11 @@ main {
     cursor: pointer;
     /* transition: 2s; */
     transition: transform .35s ease;
+    /* overflow: hidden; */
 }
 
 .products-container img:hover{
     /* width: 50%;
     position: absolute; */
-    transform: scale(1.08)
+    transform: scale(1.08);
 }
