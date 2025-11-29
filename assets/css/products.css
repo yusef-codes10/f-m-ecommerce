@@ -1,1 +1,20 @@
 @import url(/assets/css/vars.css);
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: seagreen;
+}
+
+.actions {
+    background-color: sienna;
+    padding: 1rem 2rem;
+}
+
+.actions h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--color-dark);
+    margin: 1rem 0;
+}
