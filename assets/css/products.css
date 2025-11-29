@@ -4,11 +4,10 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: seagreen;
+    background-color: var(--color-bg);
 }
 
 .actions {
-    background-color: sienna;
     padding: 1rem 2rem;
 }
 
@@ -16,7 +15,7 @@ body {
     font-size: 4rem;
     font-weight: 800;
     color: var(--color-dark);
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 .actions button {
@@ -24,4 +23,21 @@ body {
     padding: 8px 12px;
     background: none;
     cursor: pointer;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.actions button:active {
+    background-color: var(--color-dark);
+    color: var(--color-bg);
+}
+
+.cto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    color: var(--text-primary);
+    font-weight: 600;
+    padding: 1rem 2rem;
 }
