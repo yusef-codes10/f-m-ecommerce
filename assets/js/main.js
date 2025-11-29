@@ -2,4 +2,4 @@
 import './newsletter.js';
 import './search.js';
 import './favoites.js';
-import './products.js';
+// import './products.js';
