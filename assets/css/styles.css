@@ -241,6 +241,7 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    position: relative;
 }
 
 .products-container img {
@@ -252,4 +253,11 @@ main {
     /* removes inline spacing issues */
 
     border-radius: 2rem;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.products-container img:hover{
+    width: 100% ;
+    position: absolute;
 }
