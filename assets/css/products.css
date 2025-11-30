@@ -41,3 +41,8 @@ body {
     font-weight: 600;
     padding: 1rem 2rem;
 }
+
+.active-btn {
+    background-color: var(--color-dark);
+    color: var(--color-bg);
+}
