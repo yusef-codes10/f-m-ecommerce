@@ -13,7 +13,12 @@ function changeColor(element) {
 }
 
 function getTextContent(element) {
+    // check the clicked item (event delegation), apply
     titleField.value = element.textContent;
 }
 
+function updateTitle(e, element) {
+}
+
 // let's try to add an event listener sor function to foreach()
+// TODO before that, we have to know the args of foreahc()
