@@ -27,4 +27,4 @@ function changeTitle(e) {
 
 // TODO put the functionality in a sigle func
 // TODO reduce code by loop or something
-// TODO keep the hovering state till another btn is clicked
+// TODO keep the hovering state till another btn is clicked (using js)
