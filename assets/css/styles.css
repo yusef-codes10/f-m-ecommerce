@@ -211,7 +211,7 @@ main {
     background-color: var(--text-secondary);
 }
 
-/* TODO fix the container border */
+/* TODO fix the container border | use overflow none*/
 /* TODO addd functionality for the newletter */
 
 /* ! models section */
