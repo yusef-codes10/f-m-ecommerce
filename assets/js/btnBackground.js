@@ -1,1 +1,6 @@
-window.alert('look at it');
+
+const container = document.querySelector(".btns");
+
+container.forEach(element => {
+    console.log(element.textContent);
+});
