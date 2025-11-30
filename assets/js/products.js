@@ -5,6 +5,7 @@ const clothesBtn = document.getElementById("clothesBtn");
 const shoesBtn = document.getElementById("shoesBtn");
 const AccBtn = document.getElementById("AccBtn");
 
+viewAllBtn.classList.add('active-btn');
 // window.alert(btnsContainer);
 const title = document.querySelector(".title");
 
