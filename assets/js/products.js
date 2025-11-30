@@ -1,11 +1,11 @@
 // products logic
+import './btnBackground.js';
 const btnsContainer = document.querySelector(".btns");
 const viewAllBtn = document.getElementById("viewAllBtn");
 const clothesBtn = document.getElementById("clothesBtn");
 const shoesBtn = document.getElementById("shoesBtn");
 const AccBtn = document.getElementById("AccBtn");
 
-viewAllBtn.classList.add('active-btn');
 // window.alert(btnsContainer);
 const title = document.querySelector(".title");
 
