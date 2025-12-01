@@ -17,7 +17,8 @@ function getTextContent(element) {
     titleField.value = element.textContent;
 }
 
-function updateTitle(e, element) {
+function updateTitle(text) {
+    
 }
 
 // let's try to add an event listener sor function to foreach()
