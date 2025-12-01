@@ -2,6 +2,13 @@
 const btns = document.querySelectorAll('button');
 const title = document.querySelector('.title');
 
-function chngeheaderTitle(text) {
+function changeheaderTitle(text) {
     title.textContent = text;
 }
+
+btns.forEach(
+    buttons => {
+        buttons.addEventListener('click', () => 
+        changeheaderTitle(buttons.textContent));
+    }
+)
