@@ -1,2 +1,7 @@
 // perfect example of using foreach()
-alert('Alright! check this out');
+const btns = document.querySelectorAll('button');
+const title = document.querySelector('.title');
+
+function chngeheaderTitle(text) {
+    title.textContent = text;
+}
