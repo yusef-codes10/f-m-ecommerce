@@ -1,5 +1,6 @@
 // products logic
 import './btnBackground.js';
+import './foreachEvent.js';
 const btnsContainer = document.querySelector(".btns");
 const viewAllBtn = document.getElementById("viewAllBtn");
 const clothesBtn = document.getElementById("clothesBtn");
